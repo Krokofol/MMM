@@ -1,0 +1,9 @@
+#!/bin/bash
+if [$3 == 'add']
+then
+  echo $[$1 + $2]
+else if [$3 =='mul']
+  echo [$1 * $2]
+else if [$3 =='sub']
+  echo [$1 - $2]
+
